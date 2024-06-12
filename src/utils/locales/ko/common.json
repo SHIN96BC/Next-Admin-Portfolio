@@ -1,0 +1,37 @@
+{
+  "error404": "Error 404",
+  "error500": "Error 500",
+  "menu": {
+    "home": {
+      "title": "홈"
+    },
+    "delivery": {
+      "title": "배달 관리",
+      "deliverySettings": "배달비 설정",
+      "deliveryList": "배달비 목록"
+    },
+    "product": {
+      "title": "상품 관리",
+      "productList": "상품 목록",
+      "productAdd": "상품 등록"
+    },
+    "classification": {
+      "title": "분류 관리",
+      "category": "카테고리 관리",
+      "promotion": "마케팅 프로모션 관리"
+    },
+    "order": {
+      "title": "주문 관리",
+      "orderList": "주문 목록",
+      "orderDetail": "주문 상세 정보",
+      "orderProcess": "주문처리",
+      "review": "리뷰 관리"
+    },
+    "dashboard": "대시보드",
+    "dashboardPage": "대시보드"
+  },
+  "state": {
+    "ok": "확인",
+    "cancel": "취소"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "deliveryFee": {
+    "title": "Delivery Fee",
+    "base": "Base Delivery Fee"
+  },
+  "baseFee": "Base Delivery Fee",
+  "kmFee": "Additional Fee Per Km"
+}

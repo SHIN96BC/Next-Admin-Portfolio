@@ -1,0 +1,62 @@
+{
+  "tab": {
+    "total": "모든 상품",
+    "active": "사용중인 상품",
+    "inactive": "사용중지 상품",
+    "delete": "삭제된 상품"
+  },
+  "search": {
+    "productInfo": {
+      "title": "상품 정보",
+      "option": {
+        "productName": "상품명",
+        "productCode": "상품코드"
+      }
+    },
+    "category": {
+      "title": "카테고리"
+    },
+    "specialPrice": {
+      "title": "특별가",
+      "radio": {
+        "total": "모두",
+        "enabled": "사용중",
+        "disabled": "사용안함"
+      }
+    },
+    "regDate": {
+      "title": "등록일",
+      "button": {
+        "today": "오늘",
+        "week": "주별",
+        "month": "월별",
+        "total": "총"
+      }
+    },
+    "button": {
+      "search": "검색",
+      "reset": "초기화"
+    }
+  },
+  "table": {
+    "button": {
+      "delete": "삭제",
+      "copy": "복사",
+      "changeCategory": "카테고리 변경",
+      "edit": "수정"
+    },
+    "header": {
+      "productCode": "상품코드",
+      "productNameEn": "상품명(EN)",
+      "regularPrice": "기본 가격",
+      "specialPrice": "특별가",
+      "stock": "재고",
+      "categoryEn": "카테고리(EN)",
+      "regDate": "등록일",
+      "management": "관리"
+    },
+    "pagination": {
+      "rowsPerPage": "행 개수"
+    }
+  }
+}

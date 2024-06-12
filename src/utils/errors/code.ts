@@ -1,0 +1,1 @@
+export const CLIENT_UNKNOWN_ERROR_CODE = 'client/unknown';

@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import StoreProvider from "@Src/lib/StoreProvider";
+import ReactQueryProvider from "@Src/services/ReactQueryProvider";
+import { ConfigProvider } from "@Src/contexts/ConfigContext";
+import ThemeCustomization from "@Src/themes";
+import ScrollTop from "@Src/components/common/scroll/ScrollTop";
+import Notistack from "@Src/components/third-party/Notistack";
+import Snackbar from "@Src/components/@extended/Snackbar";
+import Locales from "@Src/components/common/locales/Locales";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +24,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <StoreProvider>
+          <ReactQueryProvider>
+            <ConfigProvider>
+              <ThemeCustomization>
+                <Locales>
+                  <ScrollTop>
+                    <Notistack>
+                      <Snackbar />
+                      {children}
+                    </Notistack>
+                  </ScrollTop>
+                </Locales>
+              </ThemeCustomization>
+            </ConfigProvider>
+          </ReactQueryProvider>
+        </StoreProvider>
+      </body>
     </html>
   );
 }

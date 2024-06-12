@@ -1,0 +1,27 @@
+{
+  "categorySetting": {
+    "title": "Product Category Settings"
+  },
+  "categoryInfo": {
+    "title": "Category Information",
+    "categoryNameEn": "Category Name(En)",
+    "categoryNameKo": "Category Name(Ko)",
+    "availability": "Availability",
+    "ageVerification": "Age Verification",
+    "radio": {
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    },
+    "categoryImage": "Category Image"
+  },
+  "button": {
+    "add": "Add",
+    "delete": "Delete",
+    "saveMove": "Save Category Move",
+    "save": "Save"
+  },
+  "errors": {
+    "nameEn": "This information is required.",
+    "nameKo": "This information is required."
+  }
+}

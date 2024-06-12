@@ -1,0 +1,27 @@
+{
+  "categorySetting": {
+    "title": "상품 카테고리 설정"
+  },
+  "categoryInfo": {
+    "title": "카테고리 정보",
+    "categoryNameEn": "카테고리명(영문)",
+    "categoryNameKo": "카테고리명(국문)",
+    "availability": "활성여부",
+    "ageVerification": "연령확인여부",
+    "radio": {
+      "enabled": "활성화",
+      "disabled": "비활성화"
+    },
+    "categoryImage": "카테고리 이미지"
+  },
+  "button": {
+    "add": "추가",
+    "delete": "삭제",
+    "saveMove": "분류 이동 저장",
+    "save": "저장"
+  },
+  "errors": {
+    "nameEn": "카테고리명(영문)은 필수값입니다.",
+    "nameKo": "카테고리명(국문)은 필수값입니다."
+  }
+}

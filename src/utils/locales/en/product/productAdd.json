@@ -1,0 +1,84 @@
+{
+  "basicInfo": {
+    "title": "Basic Information",
+    "productNameEn": "Product Name(En)",
+    "productNameKo": "Product Name(Ko)",
+    "productCode": "Product Code",
+    "category": "Category"
+  },
+  "productImage": {
+    "title": "Product Image"
+  },
+  "description": {
+    "title": "Product Description",
+    "tab": {
+      "en": "En",
+      "ko": "Ko"
+    },
+    "en": {
+      "title": "Product Description(En)",
+      "imageReg": "Product Information Image Registration"
+    },
+    "ko": {
+      "title": "Product Description(Ko)",
+      "imageReg": "Product Information Image Registration"
+    }
+  },
+  "priceStock": {
+    "title": "Price & Stock",
+    "regularPrice": "Regular Price",
+    "discount": {
+      "title": "Discount",
+      "add": "Add",
+      "modal": {
+        "discount": "Discount",
+        "promotionDate": {
+          "title": "Promotion Date",
+          "longTerm": "Long Term",
+          "setDate": "Set Date"
+        },
+        "specialPrice": "Special Price :"
+      }
+    },
+    "stock": "Stock",
+    "availability": "Availability"
+  },
+  "optionSetting": {
+    "title": "Option Setting",
+    "option": {
+      "title": "Option",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "enterOption": {
+        "title": "Enter Option",
+        "sorting": "Sorting",
+        "optionName": "Option Name",
+        "optionValue": {
+          "title": "Option Values",
+          "description": "Please enter option values consecutively, separated by a comma (,) or Enter."
+        },
+        "button": {
+          "apply": "Apply Options↓"
+        },
+        "error": {
+          "name": "Option Name is required.",
+          "value": "Option Values is required."
+        }
+      }
+    },
+    "table": {
+      "title": "Option List",
+      "button": {
+        "delete": "Delete",
+        "copy": "Copy",
+        "edit": "Edit"
+      },
+      "header": {
+        "optionPrice": "Option price",
+        "specialPrice": "Special Price",
+        "stock": "Stock",
+        "availability": "Availability"
+      }
+    }
+  }
+}

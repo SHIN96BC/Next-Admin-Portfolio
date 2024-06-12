@@ -1,0 +1,62 @@
+{
+  "tab": {
+    "total": "Total",
+    "active": "Active",
+    "inactive": "Inactive",
+    "delete": "Delete"
+  },
+  "search": {
+    "productInfo": {
+      "title": "Product Information",
+      "option": {
+        "productName": "Product Name",
+        "productCode": "Product Code"
+      }
+    },
+    "category": {
+      "title": "Category"
+    },
+    "specialPrice": {
+      "title": "Special Price",
+      "radio": {
+        "total": "Total",
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      }
+    },
+    "regDate": {
+      "title": "Registration Date",
+      "button": {
+        "today": "Today",
+        "week": "Week",
+        "month": "Month",
+        "total": "Total"
+      }
+    },
+    "button": {
+      "search": "Search",
+      "reset": "Reset"
+    }
+  },
+  "table": {
+    "button": {
+      "delete": "Delete",
+      "copy": "Copy",
+      "changeCategory": "Change Category",
+      "edit": "Edit"
+    },
+    "header": {
+      "productCode": "Product Code",
+      "productNameEn": "Product Name(EN)",
+      "regularPrice": "Regular Price",
+      "specialPrice": "Special Price",
+      "stock": "Stock",
+      "categoryEn": "Category(EN)",
+      "regDate": "Registration Date",
+      "management": "Management"
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page"
+    }
+  }
+}

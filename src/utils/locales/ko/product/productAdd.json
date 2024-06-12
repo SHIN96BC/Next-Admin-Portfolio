@@ -1,0 +1,84 @@
+{
+  "basicInfo": {
+    "title": "기본 정보",
+    "productNameEn": "상품명(En)",
+    "productNameKo": "상품명(Ko)",
+    "productCode": "상품코드",
+    "category": "카테고리"
+  },
+  "productImage": {
+    "title": "이미지 등록"
+  },
+  "description": {
+    "title": "상품 설명",
+    "tab": {
+      "en": "영문",
+      "ko": "국문"
+    },
+    "en": {
+      "title": "상품 설명(영문)",
+      "imageReg": "제품 정보 이미지 등록"
+    },
+    "ko": {
+      "title": "상품 설명(국문)",
+      "imageReg": "제품 정보 이미지 등록"
+    }
+  },
+  "priceStock": {
+    "title": "가격 & 재고",
+    "regularPrice": "기본 가격",
+    "discount": {
+      "title": "할인",
+      "add": "추가",
+      "modal": {
+        "discount": "할인가",
+        "promotionDate": {
+          "title": "프로모션 날짜",
+          "longTerm": "항시 진행",
+          "setDate": "기간 설정"
+        },
+        "specialPrice": "특별가 :"
+      }
+    },
+    "stock": "재고",
+    "availability": "활성 여부"
+  },
+  "optionSetting": {
+    "title": "옵션 설정",
+    "option": {
+      "title": "옵션",
+      "enabled": "설정",
+      "disabled": "설정안함",
+      "enterOption": {
+        "title": "옵션 입력",
+        "sorting": "순서 변경",
+        "optionName": "옵션명",
+        "optionValue": {
+          "title": "옵션 값",
+          "description": "Please enter option values consecutively, separated by a comma (,) or Enter."
+        },
+        "button": {
+          "apply": "옵션 적용↓"
+        },
+        "error": {
+          "name": "옵션명은 필수값입니다.",
+          "value": "옵션 값은 필수값입니다."
+        }
+      }
+    },
+    "table": {
+      "title": "옵션 목록",
+      "button": {
+        "delete": "삭제",
+        "copy": "복사",
+        "edit": "수정"
+      },
+      "header": {
+        "optionPrice": "옵션가",
+        "specialPrice": "할인 적용",
+        "stock": "재고",
+        "availability": "활성 여부"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "deliveryFee": {
+    "title": "배달비",
+    "base": "기본 배달비"
+  },
+  "baseFee": "기본 배달비",
+  "kmFee": "Km당 추가 요금"
+}

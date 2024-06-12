@@ -1,0 +1,31 @@
+{
+  "coming-soon": "Coming Soon",
+  "contact-us": "Contact US",
+  "documentation": "Documentation",
+  "disabled-menu": "Disabled Menu",
+  "error-404": "Error 404",
+  "error-500": "Error 500",
+  "maintenance": "Maintenance",
+  "more-items": "More Items",
+  "pages": "Pages",
+  "sample-page": "Sample Page",
+  "under-construction": "Under Construction",
+  "delivery": {
+    "title": "배달 관리"
+  },
+  "delivery-settings": "배달비 설정",
+  "delivery-list": "배달비 목록",
+  "product": "상품 관리",
+  "product-list": "상품 목록",
+  "product-add": "상품 등록",
+  "classification": "분류 관리",
+  "category": "카테고리 관리",
+  "promotion": "마케팅 프로모션 관리",
+  "order": "주문 관리",
+  "order-list": "주문 목록",
+  "order-detail": "주문 상세 정보",
+  "order-process": "주문처리",
+  "review": "리뷰 관리",
+  "dashboard": "대시보드",
+  "dashboard-page": "대시보드"
+}

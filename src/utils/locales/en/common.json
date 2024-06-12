@@ -1,0 +1,37 @@
+{
+  "error404": "Error 404",
+  "error500": "Error 500",
+  "menu": {
+    "home": {
+      "title": "Home"
+    },
+    "delivery": {
+      "title": "Delivery",
+      "deliverySettings": "Delivery Settings",
+      "deliveryList": "Delivery List"
+    },
+    "product": {
+      "title": "Product",
+      "productList": "Product List",
+      "productAdd": "Product Add"
+    },
+    "classification": {
+      "title": "Classification",
+      "category": "Category Management",
+      "promotion": "Promotion"
+    },
+    "order": {
+      "title": "Order",
+      "orderList": "Order List",
+      "orderDetail": "Order Detail",
+      "orderProcess": "Order Process",
+      "review": "Review"
+    },
+    "dashboard": "Dashboard",
+    "dashboardPage": "Dashboard"
+  },
+  "state": {
+    "ok": "OK",
+    "cancel": "Cancel"
+  }
+}
