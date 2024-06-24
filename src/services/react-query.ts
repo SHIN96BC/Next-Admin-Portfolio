@@ -28,6 +28,7 @@ export async function getDehydratedQuery<Q extends QueryProps>({ queryKey, query
   return dehydratedQuery as DehydratedQueryExtended<UnwrapPromise<ReturnType<Q['queryFn']>>>;
 }
 
+// filtering 하지 않고 모든 dehydrated query를 반환하는 함수
 export async function getDehydratedQueries<Q extends QueryProps[]>(queries: Q) {
   const queryClient = getQueryClient();
   await Promise.all(

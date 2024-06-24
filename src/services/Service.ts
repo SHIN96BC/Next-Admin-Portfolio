@@ -1,20 +1,20 @@
 interface HTTPInstance {
-  get<T>(
+  get<R>(
     url: string,
     config?: RequestInit,
-  ): Promise<T>;
-  delete<T>(
+  ): Promise<R>;
+  delete<R>(
     url: string,
     config?: RequestInit,
-  ): Promise<T>;
-  head<T>(
+  ): Promise<R>;
+  head<R>(
     url: string,
     config?: RequestInit,
-  ): Promise<T>;
-  options<T>(
+  ): Promise<R>;
+  options<R>(
     url: string,
     config?: RequestInit,
-  ): Promise<T>;
+  ): Promise<R>;
   post<T, R>(
     url: string,
     data?: T,
@@ -147,32 +147,32 @@ class Service {
     }
   }
 
-  private get<T>(
+  private get<R>(
     url: string,
     config?: RequestInit,
-  ): Promise<T> {
-    return this.request<T>('GET', url, undefined, config);
+  ): Promise<R> {
+    return this.request<R>('GET', url, undefined, config);
   }
 
-  private delete<T>(
+  private delete<R>(
     url: string,
     config?: RequestInit,
-  ): Promise<T> {
-    return this.request<T>('DELETE', url, undefined, config);
+  ): Promise<R> {
+    return this.request<R>('DELETE', url, undefined, config);
   }
 
-  private head<T>(
+  private head<R>(
     url: string,
     config?: RequestInit,
-  ): Promise<T> {
-    return this.request<T>('HEAD', url, undefined, config);
+  ): Promise<R> {
+    return this.request<R>('HEAD', url, undefined, config);
   }
 
-  private options<T>(
+  private options<R>(
     url: string,
     config?: RequestInit,
-  ): Promise<T> {
-    return this.request<T>('OPTIONS', url, undefined, config);
+  ): Promise<R> {
+    return this.request<R>('OPTIONS', url, undefined, config);
   }
 
   private post<T, R>(
