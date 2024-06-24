@@ -26,7 +26,7 @@ const nextConfig = {
     domains: [''],
   },
   /*  Next.js가 특정 npm 패키지를 트랜스파일하도록 설정하여 ES6+ 문법을 사용하는 패키지와의 호환성을 보장하는 설정. */
-  transpilePackages: [''],
+  // transpilePackages: [''],
 };
 
 export default nextConfig;
